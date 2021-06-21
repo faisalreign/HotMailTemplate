@@ -1,0 +1,839 @@
+﻿body {
+  font-family: 'Oswald', sans-serif;
+}
+*{
+    padding:0px;
+    margin:0px;
+}
+header{
+    height:600px;
+    width:100%;
+    background-image: url('hotmail girl image.jpg');
+    background-size:cover;
+}
+.picheader{
+    height:60px;
+    width:100%;
+    background-color:#dfe1e2;
+    opacity:0.3;
+}
+.microsoft {
+    height: 50px;
+    width: 150px;
+    background-image: url('Microsoft-Logo-White.png');
+    background-size: cover;
+    position: relative;
+    bottom: 65px;
+    left: 100px;
+}
+.trypremium{
+    height:35px;
+    width:140px;
+    border-radius:3px;
+    border:1px solid white;
+    position:relative;
+    left:64%;
+    bottom:100px;
+    line-height:35px;
+    text-align:center;
+    color:#f7f1f1;
+    font-size:15px;
+}
+.signinbutton{
+     height:35px;
+    width:90px;
+    background-color:white;
+    text-align:center;
+    color:blue;
+    font-size:14px;
+    line-height:37px;
+    border-radius:5px;
+    position:relative;
+    left:76%;
+    bottom:136px;
+}
+.outlook{
+    height:60px;
+    width:100px;
+    font-size:45px;
+    color:white;
+    font-weight:500;
+    position:relative;
+    left:100px;
+    bottom:50px;
+}
+.connecttext{
+     height:60px;
+    width:100px;
+    position:relative;
+    bottom:300px;
+    left:100px;
+    color:white;
+    font-size:70px;
+    font-weight:bold;
+}
+.organize{
+     height:60px;
+    width:100px;
+     position:relative;
+    bottom:300px;
+    left:100px;
+    color:white;
+    font-size:72px;
+    font-weight:bold;
+}
+.getthings{
+     height:60px;
+    width:570px;
+     position:relative;
+    bottom:284px;
+    left:105px;
+    color:white;
+    font-size:62px;
+    font-weight:bold;
+}
+.horiline{
+    height:1px;
+    width:80%;
+    background-color:white;
+    position:relative;
+    bottom:250px;
+    left:100px;
+}
+.textcalendar{
+    height:50px;
+    width:300px;
+    position:relative;
+    left:100px;
+    bottom:228px;
+    color:white;
+    font-size:19px;
+    font-weight:700;
+}
+.createacont{
+    height:40px;
+    width:370px;
+    background-color:#4655ce;
+    position:relative;
+    left:715px;
+    bottom:290px;
+    text-align:center;
+    line-height:35px;
+    color:white;
+    border-radius:2px;
+}
+.bigimgdiv{
+    height:420px;
+    width:100%;
+    position:relative;
+    bottom:273px;
+}
+.divonimage{
+    height:110px;
+    width:700px;
+    background-color:white;
+    position:relative;
+    bottom:288px;
+    left:415px;
+}
+.imagman {
+    height: 300px;
+    width: 50%;
+    background-image: url('imageman.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+    left:500px;
+    top:60px;
+}
+.textimg{
+    height:330px;
+    width:450px;
+    background-color:white;
+    color:blue;
+    position:relative;
+    bottom:270px;
+    left:220px;
+    font-weight:500;
+    font-size:70px;
+}
+.downtextimg{
+    height:60px;
+    width:380px;
+    position:relative;
+    left:220px;
+    bottom:265px;
+    font-size:18px;
+}
+.chatimage {
+    height: 640px;
+    width: 100%;
+    background-image: url('chat.png');
+    background-size:cover;
+    position:relative;
+    bottom:140px;
+}
+.list{
+    height:100px;
+    width:62%;
+    position:relative;
+    left:240px;
+    bottom:100px;
+}
+ul{
+    list-style-type:none;
+    margin-left:20px;
+}
+.list ul li{
+    float:left;
+    height:100px;
+    width:140px;
+    background-color:#293fa9;
+    display:block;
+    text-align:center;
+    line-height:110px;
+    border:2px solid #808080;
+    border-radius:5px;
+    font-size:19px;
+    font-weight:600;
+    color:white;
+}
+ul li:hover{
+    background-color:white;
+    color:blue;
+}
+.listdowntext{
+    height:50px;
+    width:200px;
+    position:relative;
+    left:520px;
+    bottom:100px;
+    font-size:10px;
+    text-align:center;
+}
+@media screen and (max-width:1050px){
+    header{
+    height:600px;
+    width:100%;
+    background-image: url('hotmail girl image.jpg');
+    background-size:cover;
+}
+.picheader{
+    height:60px;
+    width:100%;
+    background-color:#dfe1e2;
+    opacity:0.3;
+}
+.microsoft {
+    height: 50px;
+    width: 150px;
+    background-image: url('Microsoft-Logo-White.png');
+    background-size: cover;
+    position: relative;
+    bottom: 65px;
+    left: 100px;
+}
+.trypremium{
+    height:35px;
+    width:140px;
+    border-radius:3px;
+    border:1px solid white;
+    position:relative;
+    left:64%;
+    bottom:100px;
+    line-height:35px;
+    text-align:center;
+    color:#f7f1f1;
+    font-size:15px;
+}
+.signinbutton{
+     height:35px;
+    width:90px;
+    background-color:white;
+    text-align:center;
+    color:blue;
+    font-size:14px;
+    line-height:37px;
+    border-radius:5px;
+    position:relative;
+    left:80%;
+    bottom:136px;
+}
+.outlook{
+    height:60px;
+    width:100px;
+    font-size:45px;
+    color:white;
+    font-weight:500;
+    position:relative;
+    left:100px;
+    bottom:50px;
+}
+.connecttext{
+     height:60px;
+    width:100px;
+    position:relative;
+    bottom:300px;
+    left:96px;
+    color:white;
+    font-size:60px;
+    font-weight:bold;
+}
+.organize{
+     height:60px;
+    width:100px;
+     position:relative;
+    bottom:300px;
+    left:96px;
+    color:white;
+    font-size:62px;
+    font-weight:bold;
+}
+.getthings{
+     height:60px;
+    width:570px;
+    position:relative;
+    bottom:284px;
+    left:98px;
+    color:white;
+    font-size:52px;
+    font-weight:bold;
+}
+.horiline{
+    height:1px;
+    width:80%;
+    background-color:white;
+    position:relative;
+    bottom:250px;
+    left:100px;
+}
+.textcalendar{
+    height:50px;
+    width:300px;
+    position:relative;
+    left:100px;
+    bottom:228px;
+    color:white;
+    font-size:19px;
+    font-weight:700;
+}
+.createacont{
+    height:40px;
+    width:280px;
+    background-color:#4655ce;
+    position:relative;
+    left:575px;
+    bottom:290px;
+    text-align:center;
+    line-height:35px;
+    color:white;
+    border-radius:2px;
+}
+.bigimgdiv{
+    height:420px;
+    width:100%;
+    position:relative;
+    bottom:273px;
+}
+.divonimage{
+    height:110px;
+    width:56%;
+    background-color:white;
+    position:relative;
+    bottom:288px;
+    left:415px;
+}
+.imagman {
+    height: 300px;
+    width: 50%;
+    background-image: url('imageman.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+    left:470px;
+    top:60px;
+}
+.textimg{
+    height:330px;
+    width:450px;
+    background-color:white;
+    color:blue;
+    position:relative;
+    bottom:270px;
+    left:220px;
+    font-weight:500;
+    font-size:70px;
+}
+.downtextimg{
+    height:60px;
+    width:380px;
+    position:relative;
+    left:220px;
+    bottom:265px;
+    font-size:18px;
+}
+.chatimage {
+    height: 650px;
+    width: 100%;
+    background-image: url('chat.png');
+    background-size:cover;
+    position:relative;
+    bottom:170px;
+}
+.list{
+    height:100px;
+    width:62%;
+    position:relative;
+    left:240px;
+    bottom:140px;
+}
+ul{
+    list-style-type:none;
+    margin-left:20px;
+}
+.list ul li{
+    float:left;
+    height:80px;
+    width:105px;
+    background-color:#293fa9;
+    display:block;
+    text-align:center;
+    line-height:80px;
+    border:2px solid #808080;
+    border-radius:5px;
+    font-size:19px;
+    font-weight:600;
+    color:white;
+}
+ul li:hover{
+    background-color:white;
+    color:blue;
+}
+.listdowntext{
+    height:50px;
+    width:200px;
+    position:relative;
+    left:450px;
+    bottom:130px;
+    font-size:10px;
+    text-align:center;
+}
+}
+@media screen and (max-width:720px){
+     header{
+    height:600px;
+    width:100%;
+    background-image: url('hotmail girl image.jpg');
+    background-size:cover;
+}
+.picheader{
+    height:60px;
+    width:100%;
+    background-color:#dfe1e2;
+    opacity:0.3;
+}
+.microsoft {
+    height: 50px;
+    width: 150px;
+    background-image: url('Microsoft-Logo-White.png');
+    background-size: cover;
+    position: relative;
+    bottom: 65px;
+    left: 50px;
+}
+.trypremium{
+    height:33px;
+    width:120px;
+    border-radius:3px;
+    border:1px solid white;
+    position:relative;
+    left:64%;
+    bottom:100px;
+    line-height:35px;
+    text-align:center;
+    color:#f7f1f1;
+    font-size:13px;
+}
+.signinbutton{
+     height:33px;
+    width:70px;
+    background-color:white;
+    text-align:center;
+    color:blue;
+    font-size:13px;
+    line-height:32px;
+    border-radius:5px;
+    position:relative;
+    left:84%;
+    bottom:134px;
+}
+.outlook{
+    height:60px;
+    width:100px;
+    font-size:40px;
+    color:white;
+    font-weight:500;
+    position:relative;
+    left:50px;
+    bottom:50px;
+}
+.connecttext{
+     height:60px;
+    width:100px;
+    position:relative;
+    bottom:300px;
+    left:50px;
+    color:white;
+    font-size:42px;
+    font-weight:bold;
+}
+.organize{
+     height:60px;
+    width:100px;
+     position:relative;
+    bottom:300px;
+    left:50px;
+    color:white;
+    font-size:42px;
+    font-weight:bold;
+}
+.getthings{
+     height:60px;
+    width:570px;
+    position:relative;
+    bottom:284px;
+    left:50px;
+    color:white;
+    font-size:40px;
+    font-weight:bold;
+}
+.horiline{
+    height:1px;
+    width:86%;
+    background-color:white;
+    position:relative;
+    bottom:250px;
+    left:50px;
+}
+.textcalendar{
+    height:50px;
+    width:300px;
+    position:relative;
+    left:50px;
+    bottom:228px;
+    color:white;
+    font-size:15px;
+    font-weight:600;
+}
+.createacont{
+    height:40px;
+    width:220px;
+    background-color:#4655ce;
+    position:relative;
+    left:380px;
+    bottom:290px;
+    text-align:center;
+    line-height:35px;
+    color:white;
+    border-radius:2px;
+    font-size:13px;
+}
+.bigimgdiv{
+    height:420px;
+    width:100%;
+    background-color:white;
+    position:relative;
+    bottom:273px;
+}
+.divonimage{
+    height:110px;
+    width:56%;
+    background-color:white;
+    position:relative;
+    bottom:288px;
+    left:280px;
+}
+.imagman {
+    height: 300px;
+    width: 53%;
+    background-image: url('imageman.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+    left:300px;
+    top:60px;
+}
+.textimg{
+    height:265px;
+    width:320px;
+    background-color:white;
+    color:blue;
+    position:relative;
+    bottom:275px;
+    left:100px;
+    font-weight:400;
+    font-size:50px;
+}
+.downtextimg{
+    height:60px;
+    width:380px;
+    position:relative;
+    left:110px;
+    bottom:260px;
+    font-size:16px;
+}
+.chatimage {
+    height: 650px;
+    width: 100%;
+    background-image: url('chat.png');
+    background-size:cover;
+    position:relative;
+    bottom:170px;
+}
+.list{
+    height:80px;
+    width:80%;
+    position:relative;
+    left:110px;
+    bottom:140px;
+}
+ul{
+    list-style-type:none;
+    margin-left:20px;
+}
+.list ul li{
+    float:left;
+    height:60px;
+    width:80px;
+    background-color:#293fa9;
+    display:block;
+    text-align:center;
+    line-height:80px;
+    border:2px solid #808080;
+    border-radius:5px;
+    font-size:15px;
+    font-weight:500;
+    color:white;
+}
+ul li:hover{
+    background-color:white;
+    color:blue;
+}
+.listdowntext{
+    height:50px;
+    width:200px;
+    position:relative;
+    left:250px;
+    bottom:130px;
+    font-size:10px;
+    text-align:center;
+}
+}
+
+@media screen and (max-width:420px){
+     header{
+    height:600px;
+    width:100%;
+    background-image: url('hotmail girl image.jpg');
+    background-size:cover;
+}
+.picheader{
+    height:60px;
+    width:100%;
+    background-color:#dfe1e2;
+    opacity:0.3;
+}
+.microsoft {
+    height: 50px;
+    width: 130px;
+    background-image: url('Microsoft-Logo-White.png');
+    background-size: cover;
+    position: relative;
+    bottom: 65px;
+    left: 10px;
+}
+.trypremium{
+    height:23px;
+    width:80px;
+    border-radius:3px;
+    border:1px solid white;
+    position:relative;
+    left:58%;
+    bottom:90px;
+    line-height:20px;
+    text-align:center;
+    color:#f7f1f1;
+    font-size:10px;
+}
+.signinbutton{
+     height:23px;
+    width:50px;
+    background-color:white;
+    text-align:center;
+    color:blue;
+    font-size:10px;
+    line-height:22px;
+    border-radius:5px;
+    position:relative;
+    left:82%;
+    bottom:113px;
+}
+.outlook{
+    height:60px;
+    width:100px;
+    font-size:30px;
+    color:white;
+    font-weight:400;
+    position:relative;
+    left:10px;
+    bottom:50px;
+}
+.connecttext{
+     height:60px;
+    width:100px;
+    position:relative;
+    bottom:300px;
+    left:10px;
+    color:white;
+    font-size:30px;
+}
+.organize{
+     height:60px;
+    width:100px;
+     position:relative;
+    bottom:300px;
+    left:10px;
+    color:white;
+    font-size:30px;
+}
+.getthings{
+     height:60px;
+    width:570px;
+    position:relative;
+    bottom:284px;
+    left:10px;
+    color:white;
+    font-size:30px;
+    
+}
+.horiline{
+    height:1px;
+    width:93%;
+    background-color:white;
+    position:relative;
+    bottom:250px;
+    left:10px;
+}
+.textcalendar{
+    height:50px;
+    width:300px;
+    position:relative;
+    left:10px;
+    bottom:228px;
+    color:white;
+    font-size:12px;
+}
+.createacont{
+    height:30px;
+    width:120px;
+    background-color:#4655ce;
+    position:relative;
+    left:230px;
+    bottom:285px;
+    text-align:center;
+    line-height:35px;
+    color:white;
+    border-radius:2px;
+    font-size:9px;
+}
+.bigimgdiv{
+    height:420px;
+    width:100%;
+    background-color:white;
+    position:relative;
+    bottom:273px;
+}
+.divonimage{
+    height:90px;
+    width:72%;
+    background-color:white;
+    position:relative;
+    bottom:285px;
+    left:100px;
+}
+.imagman {
+    height: 300px;
+    width: 72%;
+    background-image: url('imageman.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+    left:100px;
+    top:60px;
+}
+.textimg{
+    height:230px;
+    width:260px;
+    background-color:white;
+    color:blue;
+    position:relative;
+    bottom:230px;
+    left:10px;
+    font-weight:400;
+    font-size:39px;
+}
+.downtextimg{
+    height:60px;
+    width:380px;
+    position:relative;
+    left:20px;
+    bottom:190px;
+    font-size:13px;
+}
+.chatimage {
+    height: 650px;
+    width: 100%;
+    background-image: url('chat.png');
+    background-size:cover;
+    position:relative;
+    bottom:170px;
+}
+.list{
+    height:60px;
+    width:96%;
+    position:relative;
+    left:5px;
+    bottom:150px;
+}
+ul{
+    list-style-type:none;
+    margin-left:20px;
+}
+.list ul li{
+    float:left;
+    height:40px;
+    width:60px;
+    background-color:#293fa9;
+    display:block;
+    text-align:center;
+    line-height:40px;
+    border:2px solid #808080;
+    border-radius:5px;
+    font-size:10px;
+    font-weight:500;
+    color:white;
+}
+ul li:hover{
+    background-color:white;
+    color:blue;
+}
+.listdowntext{
+    height:50px;
+    width:200px;
+    position:relative;
+    left:84px;
+    bottom:150px;
+    font-size:10px;
+    text-align:center;
+}
+}
